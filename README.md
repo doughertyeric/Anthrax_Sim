@@ -18,7 +18,7 @@ A file that attempts to place each step (of each path) into one of three behavio
 # File 3: Broad_Scale_Analysis.R 
 A file that uses two alternative methods applied at the broad (home range) scale to estimate probability of contact between agents and LIZs. The first method draws on the minimum convex polygon home range and the second draws upon the LoCoH method (which is optimized based on a modified version of the optimization algorithm implemented in the Movement Ecology article "A cross-validation-based approach for delimiting reliable home range estimates" (Dougherty et al. 2017). The full paths and the reduced paths with only foraging points (based on the kmeans clustering procedure) are analyzed using these approaches.
 
-# File 4: AnthraxSim_STP_Sim.R
+# File 4: STP_Simulation.R
 A file enabling the simulation of steps in between recorded fixes of each animal. Due to the temporal resolution of the empirical data upon which the ABM is based, the positions of agents are recorded once every 20 minutes. This code draws upon the space-time prism (STP) method to simulate the potential path taken by the animal in between these fixes. By simulating these potential paths numerous times, a probability surface emerges, which forms the basis of the Fine-scale Analysis (File 5)
 
 # File 5: Fine_Scale_Analysis.R 
